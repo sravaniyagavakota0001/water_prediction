@@ -1,0 +1,52 @@
+{
+  "features": [
+    "ph",
+    "turbidity",
+    "temperature",
+    "do",
+    "ec",
+    "tds",
+    "tds_ec_ratio",
+    "ph_deviation",
+    "temp_do_factor",
+    "turb_tds_index"
+  ],
+  "rfe_top_features": [
+    "turbidity",
+    "do",
+    "ec",
+    "tds",
+    "ph_deviation",
+    "turb_tds_index"
+  ],
+  "rfe_ranking": {
+    "ph": 4,
+    "turbidity": 1,
+    "temperature": 3,
+    "do": 1,
+    "ec": 1,
+    "tds": 1,
+    "tds_ec_ratio": 5,
+    "ph_deviation": 1,
+    "temp_do_factor": 2,
+    "turb_tds_index": 1
+  },
+  "grade_classes": [
+    "Excellent",
+    "Good",
+    "Poor",
+    "Unfit",
+    "Very Poor"
+  ],
+  "holdout_test_metrics": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "roc_auc": 1.0
+  },
+  "wqi_regression": {
+    "r2": 0.9967,
+    "rmse": 6.51
+  }
+}

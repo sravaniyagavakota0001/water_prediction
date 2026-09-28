@@ -1,0 +1,58 @@
+{
+  "features": [
+    "ph",
+    "ec",
+    "tds",
+    "na_meq",
+    "ca_meq",
+    "mg_meq",
+    "chloride_meq",
+    "bicarbonate_meq",
+    "sar",
+    "sodium_percent",
+    "tds_ec_ratio",
+    "hardness",
+    "kellys_ratio",
+    "magnesium_hazard",
+    "rsc"
+  ],
+  "rfe_top_features": [
+    "ec",
+    "tds",
+    "na_meq",
+    "chloride_meq",
+    "sar",
+    "sodium_percent",
+    "kellys_ratio"
+  ],
+  "rfe_ranking": {
+    "ph": 3,
+    "ec": 1,
+    "tds": 1,
+    "na_meq": 1,
+    "ca_meq": 8,
+    "mg_meq": 4,
+    "chloride_meq": 1,
+    "bicarbonate_meq": 2,
+    "sar": 1,
+    "sodium_percent": 1,
+    "tds_ec_ratio": 5,
+    "hardness": 6,
+    "kellys_ratio": 1,
+    "magnesium_hazard": 7,
+    "rsc": 9
+  },
+  "grade_classes": [
+    "Excellent",
+    "Good",
+    "Poor",
+    "Very Poor"
+  ],
+  "holdout_test_metrics": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "roc_auc": 1.0
+  }
+}

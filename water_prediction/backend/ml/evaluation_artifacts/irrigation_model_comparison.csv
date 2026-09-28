@@ -1,0 +1,6 @@
+model,domain,cv_accuracy,cv_precision,cv_recall,cv_f1,cv_roc_auc,holdout_accuracy
+Baseline Linear SVM,Irrigation,0.995,0.9904,1.0,0.9951,1.0,
+SVM RBF (Tuned - Best for Irrigation),Irrigation,0.9975,0.9951,1.0,0.9975,1.0,1.0
+Random Forest,Irrigation,0.9925,0.9856,1.0,0.9927,0.9999,
+XGBoost,Irrigation,0.995,0.9904,1.0,0.9951,0.9991,
+Gradient Boosting,Irrigation,0.995,0.9905,1.0,0.9952,0.9974,

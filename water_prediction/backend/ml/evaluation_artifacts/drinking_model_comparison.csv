@@ -1,0 +1,6 @@
+model,domain,cv_accuracy,cv_precision,cv_recall,cv_f1,cv_roc_auc,holdout_accuracy
+Baseline Logistic Regression (No Tuning),Drinking,1.0,1.0,1.0,1.0,1.0,
+Logistic Regression (Tuned - Best for Drinking),Drinking,1.0,1.0,1.0,1.0,1.0,1.0
+Random Forest,Drinking,1.0,1.0,1.0,1.0,1.0,
+XGBoost,Drinking,0.9975,0.9946,1.0,0.9973,0.9977,
+Gradient Boosting,Drinking,1.0,1.0,1.0,1.0,1.0,
